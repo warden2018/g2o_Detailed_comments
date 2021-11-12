@@ -130,7 +130,7 @@ int main(int argc, const char* argv[]){
                                    g2o::Sampler::uniformRand(0., 1.)+3));
   }
 
-  double focal_length= 1000.; //焦距
+  double focal_length= 1000.; //焦距,单位是像素
   Vector2d principal_point(320., 240.); //成像平面光心的像素坐标
 
   vector<g2o::SE3Quat,
